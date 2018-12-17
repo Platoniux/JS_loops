@@ -10,7 +10,7 @@ function numberOfLetterInString(str, letter) {
   var pos = 0;
   for (var i = 0; i < str.length; i++) {
     var positionOfLetter = str.indexOf(letter, pos);
-    if (positionOfLetter == -1) break;
+    if (positionOfLetter === -1) break;
     pos = positionOfLetter + 1;
   }
   console.log(i);
