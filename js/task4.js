@@ -1,5 +1,9 @@
 /* Task 4 */
 
+
+numberOfLetterInString("WhAt We dO was WoRk", "w");
+
+
 function numberOfLetterInString(str, letter) {
   str = str.toLowerCase();
   letter = letter.toLowerCase();
@@ -12,4 +16,3 @@ function numberOfLetterInString(str, letter) {
   console.log(i);
 }
 
-// numberOfLetterInString("WhAt We dO was", "w");

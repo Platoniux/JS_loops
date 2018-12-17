@@ -1,14 +1,14 @@
 /* Task 7 */
 
+reverseString("anon");
+
+
 function reverseString(str) {
   str = String(str);
-  var position = str.length - 1;
   var newStr = "";
-  for (var i = 0; i < str.length; i++) {
-    newStr = newStr + str[position];
-    position--; 
+  for (var i = str.length - 1; i >= 0; i--) {
+    newStr = newStr + str[i];
   }
   console.log(newStr);
 }
 
-// reverseString(true);

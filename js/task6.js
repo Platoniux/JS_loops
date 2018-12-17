@@ -1,13 +1,16 @@
 /* Task 6 */
 
-function fibbonachi(n) {
-  var result;
-  if (n < 2) return n;
-  result = fibbonachi(n - 1) + fibbonachi(n - 2);
-  return result;
-}
-
 // console.log(fibbonachi(3));
+// console.log(fibbonachiLoop(77));
+
+
+
+
+
+function fibbonachi(n) {
+  if (n < 2) return n;
+  return fibbonachi(n - 1) + fibbonachi(n - 2);
+}
 
 function fibbonachiLoop(n) {
   if (n < 2) return n;
@@ -20,4 +23,3 @@ function fibbonachiLoop(n) {
   return y;
 }
 
-// console.log(fibbonachiLoop(77));
